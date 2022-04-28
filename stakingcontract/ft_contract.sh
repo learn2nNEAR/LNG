@@ -2,13 +2,13 @@
 # Smart contract FT 
 # Source code: https://github.com/near-examples/FT
 # More: https://nomicon.io/Standards/Tokens/FungibleToken/Core
-export MAIN_ACCOUNT=giaphuc12.testnet
+export MAIN_ACCOUNT=lngv1.testnet
 export NEAR_ENV=testnet
 export CONTRACT_STAKING_ID=staking.$MAIN_ACCOUNT
 export CONTRACT_FT_ID=ft.$MAIN_ACCOUNT
 export ONE_YOCTO=0.000000000000000000000001
-export ACCOUNT_ROSE=rose.giaphuc12.testnet
-export ACCOUNT_OHARA=ohara.giaphuc12.testnet
+export ACCOUNT_ROSE=rose.$MAIN_ACCOUNT
+export ACCOUNT_OHARA=ohara.$MAIN_ACCOUNT
 export GAS=300000000000000
 export AMOUNT=100000000000000000000000000
 
